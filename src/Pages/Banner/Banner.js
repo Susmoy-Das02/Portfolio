@@ -1,5 +1,6 @@
 import React from 'react';
-import me from '../../images/me.jpg'
+import Programming from '../../images/Programming.svg'
+import './Banner.css';
 
 const Banner = () => {
     return (
@@ -16,7 +17,7 @@ const Banner = () => {
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img class="object-cover object-center rounded" alt="hero" src={me}/>
+      <img class="object-cover object-center rounded" alt="hero" src={Programming}/>
     </div>
   </div>
 </section>
