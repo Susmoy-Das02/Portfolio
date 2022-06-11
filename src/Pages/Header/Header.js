@@ -10,7 +10,7 @@ const Header = () => {
     </a>
     <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center text-white">
       <a class="mr-5 hover:text-gray-900">Home</a>
-      <a class="mr-5 hover:text-gray-900">My Projects</a>
+      <a href="#projects" class="mr-5 hover:text-gray-900">My Projects</a>
       <a href="#about" class="mr-5 hover:text-gray-900">About Me</a>
       <a href="#contact" class="mr-5 hover:text-gray-900">Contact me</a>
     </nav>
